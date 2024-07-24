@@ -1,0 +1,26 @@
+# Initial SEED for reproducibility
+seed = 2024
+
+# the number of epochs for training
+epochs = 1000   
+
+# patience for early stopping callback
+patience = 50
+
+# noisy files
+noisy_files = 'data/noisy/*.hdf'
+
+# ground-truth files 
+truth_files = 'data/ground/*.hdf'
+
+# The fractions of the total number of streamers for train, validation and test datasets
+datasets_size = [ 0.7, 0.2, 0.10 ]
+
+# the size of each batch
+batch_size = 8
+
+# the number of filters in convolutional operations
+conv_num_filters = 4
+
+# the size for squared kernel in convolutional operations
+conv_kernel_size = 3
